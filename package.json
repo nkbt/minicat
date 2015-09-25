@@ -4,6 +4,7 @@
   "description": "Windows compatible cat shell command polyfill",
   "main": "cat.js",
   "bin": {
+    "mcat": "cli.js",
     "minicat": "cli.js"
   },
   "scripts": {

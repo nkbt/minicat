@@ -31,6 +31,9 @@ Then whenever you need it:
 ```sh
 minicat package.json
 minicat file1.txt file2.txt
+
+# or with mcat shorthand
+mcat package.json
 ```
 
 
