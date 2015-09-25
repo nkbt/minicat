@@ -1,0 +1,8 @@
+/coverage
+/test
+/.coveralls.yml
+/.eslint*
+/.jshint*
+/.gitignore
+/.npmignore
+/circle.yml

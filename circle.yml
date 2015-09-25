@@ -1,0 +1,12 @@
+machine:
+  node:
+    version: 0.10.34
+
+test:
+  override:
+    - npm run lint -s
+    - npm run test -s
+    - npm run test:func -s
+    - node_modules/.bin/istanbul cover --report text --report html --report lcovonly --verbose --dir ${CIRCLE_ARTIFACTS}/coverage test
+    - cat ${CIRCLE_ARTIFACTS}/coverage/lcov.info | $(npm bin)/coveralls || true
+
