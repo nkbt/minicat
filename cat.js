@@ -1,11 +1,18 @@
 var fs = require('fs');
+var readFileSync = require('fs-file-sync-fd').readFileSync;
+
+var STDIN_FILENO = 0;
 
 function cat(result, file) {
   var stdout = '';
   var stderr = '';
 
   try {
-    stdout = result.stdout + fs.readFileSync(file, 'utf8');
+    if (file === '-') {
+      stdout = result.stdout + readFileSync(STDIN_FILENO, 'utf8');
+    } else {
+      stdout = result.stdout + fs.readFileSync(file, 'utf8');
+    }
     stderr = result.stderr;
   } catch (e) {
     stdout = result.stdout;
