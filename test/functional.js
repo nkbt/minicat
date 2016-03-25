@@ -61,6 +61,18 @@ test('cat non-existing file and a valid file', function (t) {
 });
 
 
+test('cat stdin by default', function (t) {
+  exec2('node cli < package.json',
+    'cat < package.json',
+    function (error, stdout, stderr) {
+      t.equal(error[0], error[1], 'same error');
+      t.equal(stdout[0], stdout[1], 'same stdout');
+      t.equal(stderr[0], stderr[1], 'same stderr');
+      t.end();
+    });
+});
+
+
 test('cat stdin by name', function (t) {
   exec2('node cli - < package.json',
     'cat - < package.json',
