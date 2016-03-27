@@ -1,11 +1,12 @@
-# minicat
+# minicat [![npm](https://img.shields.io/npm/v/minicat.svg?style=flat-square)](https://www.npmjs.com/package/minicat)
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nkbt/help)
+[![Gitter](https://img.shields.io/gitter/room/nkbt/help.svg?style=flat-square)](https://gitter.im/nkbt/help)
 
-[![Circle CI](https://circleci.com/gh/nkbt/minicat.svg?style=svg)](https://circleci.com/gh/nkbt/minicat)
-[![Coverage Status](https://coveralls.io/repos/nkbt/minicat/badge.svg?branch=master)](https://coveralls.io/r/nkbt/minicat?branch=master)
-[![Dependency Status](https://david-dm.org/nkbt/minicat.svg)](https://david-dm.org/nkbt/minicat)
-[![devDependency Status](https://david-dm.org/nkbt/minicat/dev-status.svg)](https://david-dm.org/nkbt/minicat#info=devDependencies)
+[![CircleCI](https://img.shields.io/circleci/project/nkbt/minicat.svg?style=flat-square&label=nix-build)](https://circleci.com/gh/nkbt/minicat)
+[![AppVeyor](https://img.shields.io/appveyor/ci/nkbt/minicat.svg?style=flat-square&label=win-build)](https://ci.appveyor.com/project/nkbt/minicat)
+[![Coveralls](https://img.shields.io/coveralls/nkbt/minicat.svg?style=flat-square)](https://coveralls.io/r/nkbt/minicat)
+[![Dependencies](https://img.shields.io/david/nkbt/minicat.svg?style=flat-square)](https://david-dm.org/nkbt/minicat)
+[![Dev Dependencies](https://img.shields.io/david/dev/nkbt/minicat.svg?style=flat-square)](https://david-dm.org/nkbt/minicat#info=devDependencies)
 
 
 Windows compatible `cat` shell command polyfill with zero dependencies

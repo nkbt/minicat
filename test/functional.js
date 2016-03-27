@@ -6,7 +6,7 @@ function exec2(actual, expected, cb) {
   exec(expected, function (error1, stdout1, stderr1) {
     exec(actual, function (error2, stdout2, stderr2) {
       return cb(
-        [(error1 && error1.message), (error2 && error2.message)],
+        [error1 && error1.message, error2 && error2.message],
         [stdout1, stdout2],
         [stderr1, stderr2]);
     });

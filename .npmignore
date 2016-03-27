@@ -6,3 +6,4 @@
 /.gitignore
 /.npmignore
 /circle.yml
+/appveyor.yml
