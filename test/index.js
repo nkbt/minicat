@@ -21,12 +21,12 @@ test('cat', function (t) {
 
   t.deepEqual(
     cat([wrong]),
-    {stderr: 'cat: test/wrong.txt: No such file or directory\n', stdout: ''},
+    {stderr: 'cat: test' + path.sep + 'wrong.txt: No such file or directory\n', stdout: ''},
     'cat non-existing single file');
 
   t.deepEqual(
     cat([wrong, test1]),
-    {stderr: 'cat: test/wrong.txt: No such file or directory\n', stdout: 'test1\n'},
+    {stderr: 'cat: test' + path.sep + 'wrong.txt: No such file or directory\n', stdout: 'test1\n'},
     'cat non-existing file and a valid file');
 
   t.end();
