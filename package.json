@@ -43,5 +43,8 @@
   "pre-commit": [
     "lint",
     "test"
-  ]
+  ],
+  "dependencies": {
+    "fs-file-sync-fd": "^0.1.0"
+  }
 }
