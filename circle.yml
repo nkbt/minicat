@@ -8,5 +8,6 @@ test:
     - npm run test -s
     - npm run test:func -s
     - node_modules/.bin/istanbul cover --report text --report html --report lcovonly --verbose --dir ${CIRCLE_ARTIFACTS}/coverage test
-    - cat ${CIRCLE_ARTIFACTS}/coverage/lcov.info | $(npm bin)/coveralls || true
 
+  post:
+    - cat ${CIRCLE_ARTIFACTS}/coverage/lcov.info | $(npm bin)/codecov
