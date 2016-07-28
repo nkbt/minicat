@@ -4,6 +4,7 @@
 
 [![CircleCI](https://img.shields.io/circleci/project/nkbt/minicat.svg?style=flat-square&label=nix-build)](https://circleci.com/gh/nkbt/minicat)
 [![AppVeyor](https://img.shields.io/appveyor/ci/nkbt/minicat.svg?style=flat-square&label=win-build)](https://ci.appveyor.com/project/nkbt/minicat)
+[![Travis](https://img.shields.io/travis/nkbt/minicat.svg?style=flat-square&label=matrix-build)](https://travis-ci.org/nkbt/minicat)
 [![Coverage](https://img.shields.io/codecov/c/github/nkbt/minicat.svg?style=flat-square)](https://codecov.io/github/nkbt/minicat?branch=master)
 [![Dependencies](https://img.shields.io/david/nkbt/minicat.svg?style=flat-square)](https://david-dm.org/nkbt/minicat)
 [![Dev Dependencies](https://img.shields.io/david/dev/nkbt/minicat.svg?style=flat-square)](https://david-dm.org/nkbt/minicat#info=devDependencies)
