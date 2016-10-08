@@ -39,7 +39,7 @@
     "eslint": "3.5.0",
     "eslint-config-airbnb-base": "7.1.0",
     "eslint-plugin-import": "1.14.0",
-    "husky": "0.11.7",
+    "husky": "0.11.8",
     "istanbul": "0.4.5",
     "rimraf": "2.5.4",
     "tape": "4.6.0"
