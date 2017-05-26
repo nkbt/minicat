@@ -36,13 +36,13 @@
   "homepage": "https://github.com/nkbt/minicat#readme",
   "devDependencies": {
     "codecov": "2.2.0",
-    "eslint": "3.9.1",
-    "eslint-config-airbnb-base": "10.0.1",
+    "eslint": "3.19.0",
+    "eslint-config-airbnb-base": "11.2.0",
     "eslint-plugin-import": "2.3.0",
-    "husky": "0.11.9",
+    "husky": "0.13.3",
     "istanbul": "0.4.5",
-    "rimraf": "2.5.4",
-    "tape": "4.6.2"
+    "rimraf": "2.6.1",
+    "tape": "4.6.3"
   },
   "dependencies": {
     "fs-file-sync-fd": "0.1.0"
