@@ -42,7 +42,7 @@
     "husky": "0.14.3",
     "istanbul": "0.4.5",
     "rimraf": "2.6.2",
-    "tape": "4.6.3"
+    "tape": "4.8.0"
   },
   "dependencies": {
     "fs-file-sync-fd": "0.1.0"
